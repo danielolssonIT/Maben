@@ -12,6 +12,6 @@ public class App
     }
 
     public int one(){
-        return 1;
+        return 0;
     }
 }
