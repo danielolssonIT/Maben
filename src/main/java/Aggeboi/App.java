@@ -22,4 +22,8 @@ public class App
     public int three(){
         return 3;
     }
+
+    public int three2(){
+        return 3;
+    }
 }
