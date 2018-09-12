@@ -14,4 +14,8 @@ public class App
     public int one(){
         return 1;
     }
+
+    public int two(){
+        return 2;
+    }
 }

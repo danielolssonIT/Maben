@@ -10,6 +10,7 @@ import org.junit.Test;
  */
 public class AppTest 
 {
+    private App app = new App();
     /**
      * Rigorous Test :-)
      */
@@ -21,7 +22,11 @@ public class AppTest
 
     @Test
     public void oneTest(){
-        App app = new App();
         assertEquals(1, app.one());
+    }
+
+    @Test
+    public void twoTest(){
+        assertEquals(2, app.two());
     }
 }
