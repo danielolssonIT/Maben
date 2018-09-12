@@ -1,5 +1,6 @@
 package Aggeboi;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -16,5 +17,11 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
+    }
+
+    @Test
+    public void oneTest(){
+        App app = new App();
+        assertEquals(1, app.one());
     }
 }
